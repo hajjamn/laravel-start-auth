@@ -1,0 +1,7 @@
+Run
+artisan make:model Example -a
+
+delete ExampleController in controller folder
+
+Run
+php artisan make:controller Admin/ExampleController -r --model=Example
